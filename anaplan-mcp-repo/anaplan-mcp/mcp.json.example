@@ -1,0 +1,12 @@
+{
+  "_comment": "Copy this into your MCP client config and edit the two paths. Do NOT put your password here - store it in your OS environment variables (see README).",
+  "mcpServers": {
+    "anaplan": {
+      "command": "C:\\path\\to\\python.exe",
+      "args": ["C:\\path\\to\\anaplan_mcp\\server.py"],
+      "env": {
+        "ANAPLAN_VERIFY_SSL": "true"
+      }
+    }
+  }
+}
