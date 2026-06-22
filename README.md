@@ -3,7 +3,6 @@
 [![Built with Claude](https://img.shields.io/badge/Built%20with-Claude-D97757)](https://www.anthropic.com/claude)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![MCP](https://img.shields.io/badge/Protocol-MCP-000000)](https://modelcontextprotocol.io)
-[![Tests](https://img.shields.io/badge/Tests-20%20passing-4C9A2A)](#testing)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A local [MCP (Model Context Protocol)](https://modelcontextprotocol.io) server that lets an AI assistant (Claude, Cursor, etc.) work directly with your **Anaplan** models — listing and running imports/exports, browsing modules, and inspecting module attributes — all from natural-language chat, with a safety confirmation before anything runs.
