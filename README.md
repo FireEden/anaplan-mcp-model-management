@@ -3,9 +3,14 @@
 [![Built with Claude](https://img.shields.io/badge/Built%20with-Claude-D97757)](https://www.anthropic.com/claude)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![MCP](https://img.shields.io/badge/Protocol-MCP-000000)](https://modelcontextprotocol.io)
+[![Tests](https://img.shields.io/badge/Tests-20%20passing-4C9A2A)](#testing)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A local [MCP (Model Context Protocol)](https://modelcontextprotocol.io) server that lets an AI assistant (Claude, Cursor, etc.) work directly with your **Anaplan** models — listing and running imports/exports, browsing modules, and inspecting module attributes — all from natural-language chat, with a safety confirmation before anything runs.
+
+<p align="center">
+  <img src="docs/architecture.svg" alt="Architecture: you to AI assistant to MCP server to Anaplan API" width="600">
+</p>
 
 Built as a hands-on project to explore how MCP can wrap an enterprise planning API (Anaplan Integration API v2). Everything runs locally on your own machine.
 
